@@ -1,0 +1,31 @@
+* {
+    margin: auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header logo and header links */
+.header {
+    background-color: rgb(44, 44, 68);
+    color: white;
+    padding: 10px 120px;
+}
+
+.top-container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.header-logo {
+    margin-left: 0;
+    margin-right: 50px;
+}
+
+a {
+    margin-right: 0;
+    text-decoration: none;
+    color: white;
+    gap: 20px;
+}
+
+
