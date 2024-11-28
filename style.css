@@ -13,12 +13,18 @@
 
 .top-container {
     display: flex;
-    margin-bottom: 50px;
 }
 
 .header-logo {
     margin-left: 0;
     margin-right: 50px;
+}
+
+.header-links {
+    display: flex;
+    margin-right: 0;
+    gap: 40px;
+   
 }
 
 a {
@@ -28,4 +34,47 @@ a {
     gap: 20px;
 }
 
+.text-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px 0;
+    margin: 0;
+}
 
+
+.header-info, .header-img {
+    flex: 1;
+    max-width: 50%;
+}
+
+.header-info {
+    box-sizing: border-box;
+    margin: 20px;
+
+}
+
+#header-text {
+    font-weight: bold;
+}
+
+#header-btn {
+    margin-top: 5px;
+    padding: 5px 20px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+        background-color: #5a5ae2;
+    border: none;
+    border-radius: 5px;
+}
+
+.header-img {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    align-items: center;
+    justify-content: center;
+}
