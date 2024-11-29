@@ -181,3 +181,12 @@ a {
     color: #5a5ae2;
     cursor: pointer;
 }
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(44, 44, 68);
+    color: white;
+    padding: 40px 120px;
+}
