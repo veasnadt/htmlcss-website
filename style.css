@@ -147,3 +147,37 @@ a {
     margin-right: 25%;
     max-width: 70%;
 }
+
+.pop-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    color: #fff;
+    background-color: #5a5ae2;
+    max-width: 60%;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+#pop-up-text {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#sign-up-btn {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+#sign-up-btn:hover {
+    background-color: #fff;
+    color: #5a5ae2;
+    cursor: pointer;
+}
